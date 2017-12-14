@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <style>
+    div.container {
+      width: 100%;
+      border: 1px solid gray;
+    }
+
+    header{
+      padding: 1em;
+      color: white;
+      background-color: #f1f1f1;
+      background-image:url('./header.png');
+      background-repeat: no-repeat;
+      clear: left;
+      text-align: left;
+      height: 50px;
+    }
+    .ButonTemplate {
+      display: block;
+      background-color: #4A9CA8;
+      color: white; 
+      padding: 16px 10px;
+      width: 100%; 
+      border: 10px solid #ffffff;
+      outline: none;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    .ButonTemplate.active {
+      background-color: #317194;
+    }
+    .ButonTemplate:hover {
+      background-color: #317194;
+    }
+    .ButtonTemplate.disabled {
+      background-color: gray;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+    </header>
+    <div id="divMain" class="content">
+      <div class="listHeader" id="divHeader">
+
+
+<table border="1" align="left">
+  <tr height="20">
+    <td style="height: 50px; text-align: center; vertical-align: bottom;">
+      <div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/FEA43F8A404AB681FA97560A7EDB903D'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' /></a></div>
+    </td>
+
+    <td width="20"></td><td></td>
+
+    <td style="height: 50px; text-align: center; vertical-align: bottom;">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+       <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="Q39EX8RKBXVHG">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="height: 50px; text-align: center; vertical-align: top;"> National credit/debit card? pay with INR</td>
+    <td width="20"></td><td></td>
+    <td style="height: 50px; text-align: center; vertical-align: top;">International credit/debit card? pay with USD</td>
+  </tr>
+</table>
+
+      </div>
+    </div>
+</body>
+</html>
